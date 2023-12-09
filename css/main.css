@@ -1,0 +1,18 @@
+/*Custom CSS (Override Bootstrap Styles)*/
+th,td{border:none!important;}
+td{
+    padding: 0!important;
+    vertical-align: middle!important;
+}
+
+.table{
+    border: 5px solid rgba(0, 128, 255, 0.9)!important; 
+    border-spacing: 0px; 
+    border-collapse: separate;
+}
+
+img{
+    height:128px; 
+    width:128px; 
+    object-fit: cover;
+}
